@@ -210,3 +210,11 @@ body {
     margin-bottom: 0px;
   }
 }
+
+.js-tabcontent {
+  display: none;
+}
+
+.js-tabcontent section.active {
+  display: block !important;
+}
