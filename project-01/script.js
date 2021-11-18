@@ -1,3 +1,4 @@
+/*
 // Retorne no console todas as imagens do site
 
 const imgList = document.getElementsByTagName('img'); //HTMLCollection é 'ao vivo'.
@@ -138,3 +139,5 @@ console.log(firstDt.nextElementSibling);
 
 // Substitua o conteúdo html de .faq pelo de .animais
 faqSite.innerHTML = animals.innerHTML;
+
+*/
