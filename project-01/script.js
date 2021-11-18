@@ -119,3 +119,22 @@ function  handlePress(e){
 
 window.addEventListener('keypress', handlePress);
 
+// Duplique o menu e adicione ele em copy
+
+const menuSite = document.querySelector('.menu');
+const cloneMenu = menuSite.cloneNode(true);
+
+const copySite = document.querySelector('.copy');
+copySite.appendChild(cloneMenu);
+
+// Selecione o primeiro DT da dl de Faq
+
+const faqSite = document.querySelector('.faq-lista');
+console.log(faqSite.children[0]); //htmlCollection array-alike
+
+// Selecione o DD referente ao primeiro DT
+const firstDt = faqSite.children[0];
+console.log(firstDt.nextElementSibling);
+
+// Substitua o conteúdo html de .faq pelo de .animais
+faqSite.innerHTML = animals.innerHTML;
