@@ -215,6 +215,6 @@ body {
   display: none;
 }
 
-.js-tabcontent section.active {
+section.active {
   display: block !important;
 }
