@@ -19,11 +19,11 @@ for(let i = 0; i < nameList.length; i++){
   vector[i] = new Pessoa(nameList[i], ageList[i])
 }
 
-
-
 // Crie uma Constructor Function (Dom) para manipulação
 // de listas de elementos do dom. Deve conter as seguintes
 // propriedades e métodos:
+
+
 //
 // elements, retorna NodeList com os elementos selecionados
 // addClass(classe), adiciona a classe a todos os elementos
