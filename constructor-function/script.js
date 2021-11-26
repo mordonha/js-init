@@ -27,8 +27,6 @@ for(let i = 0; i < nameList.length; i++){
 //// removeClass(classe), remove a classe a todos os elementos
 
 
-
-
 function Dom(selector){
     const elemList = document.querySelectorAll(selector);
     this.elements = elemList;
